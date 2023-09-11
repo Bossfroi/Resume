@@ -1,0 +1,202 @@
+@media (max-width: 767.98px){
+    
+    body{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-image: linear-gradient(rgb(255, 255, 255),
+         rgb(252, 252, 252),
+         rgb(243, 255, 68),
+         rgb(252, 252, 252),
+           #fdbdc2);
+           transition: 0.8s;
+           align-items: center;
+           text-align: center;
+    }
+    .-cardcenter{
+        overflow: hidden;
+        box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
+        border-radius: 5%;
+        border: 1px solid #d4cfcf;
+        padding: 10px;
+        background-image: linear-gradient(rgb(245, 243, 236),
+         rgb(209, 230, 255),
+         rgb(184, 230, 191),
+         rgb(228, 247, 248),
+         rgb(243, 228, 248));
+         border-radius: 25px;
+         transition: 0.5s;
+         align-items: right;
+         
+    }
+    .-cardpic{
+        overflow: hidden;
+        box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
+        border-radius: 5%;
+        border: 1px solid #d4cfcf;
+        padding: 10px;
+        background-image: linear-gradient(rgb(245, 243, 236),
+         rgb(209, 230, 255),
+         rgb(184, 230, 191),
+         rgb(228, 247, 248),
+         rgb(243, 228, 248));
+         border-radius: 25px;
+         transition: 0.5s;
+         align-items: right;
+         
+    }
+    .picture{
+    
+        align-self: auto;
+        height: 210px;
+        width: 150px;
+        box-shadow:0 13px 16px rgba(15, 15, 15, 0.75);
+        border-radius: 15px;
+        
+    
+    }
+    .-card1{
+        box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
+        border-radius: 5px;
+        border: 1px solid #d4cfcf;
+        padding: 110px;
+        background-image: linear-gradient(rgb(206, 203, 205),
+         rgb(253, 254, 255),
+         rgb(248, 248, 248),
+         rgb(207, 207, 207));
+         border-radius: 25px;
+
+    }
+    .-card3{
+        
+        box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
+        border-radius: 5px;
+        border: 1px solid #d4cfcf;
+        padding: 110px;
+        background-image: linear-gradient(rgb(211, 206, 209),
+         rgb(248, 248, 248),
+         rgb(248, 248, 248),
+         rgb(248, 248, 248),
+         rgb(248, 248, 248),
+         rgb(248, 248, 248),
+         rgb(207, 207, 207));
+         border-radius: 25px;
+        
+    }
+    .-cardeduc{
+        box-shadow:0 0.3px 0.9px rgba(15, 15, 15, 0.75);
+        border-radius: 15px;
+        align-self: auto;
+    
+    }
+    .-cardex{
+        box-shadow:0 0.3px 0.9px rgba(15, 15, 15, 0.75);
+        border-radius: 5px;
+    }
+    .-cardprofile{
+    
+        box-shadow:0 0.4px 1.1px rgba(2, 0, 17, 0.75);
+        border-radius: 13px;
+        height: 250px;
+        width: 400px;
+     
+        
+    }
+    
+    *{
+        color: rgb(0, 0, 0);
+        padding:0px;
+        margin: 1;
+        
+    }
+     h1, h2 , p, ul, li {
+        margin: 1;
+        padding: 0;
+     }
+    
+    
+    .Contact{
+        box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.75);
+        margin:60px;
+        padding: 4px;
+        align-self:auto;
+        align-self: center;
+        width: 70%;
+        border-radius: 15px;
+        float: center;
+        transition: 0.8s;
+    }
+    
+    .profilestatement{
+        box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.75);
+        margin:60px;
+        padding: 4px;
+        align-self:auto;
+        width: 70%;
+        border-radius: 15px;
+        float: center;
+        transition: 0.8s;
+       
+    }
+    .experience{
+        box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.75);
+        margin:60px;
+        padding: 4px;
+        align-self:auto;
+        width:  70%;
+        border-radius: 15px;
+        float: center;
+        transition: 0.7s;
+        
+    }
+    .education{
+        box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.75);
+        margin:60px;
+        padding: 4px;
+        align-self:auto;
+        width: 70%;
+        border-radius: 15px;
+        color-interpolation-filters: auto;
+        transition: 0.6s;
+        
+    }
+    
+    p{
+        white-space:pre-wrap;
+        white-space:pre-line;
+        margin:0.5px;
+        align-self: auto;
+
+    }
+    .-cardprof{
+        
+       margin: auto;
+       width: 50%;
+       text-align: center;
+    }
+     .picborder{
+        border-radius: 12%;
+       align-items: center;
+    }
+    .animation{
+     
+        top: 0;
+        left: 0;
+        z-index: -1; 
+        animation: animation 5s linear infinite;
+    }
+    @keyframes animation {
+        0% {
+           
+          background: linear-gradient(55deg, #c0f0be, #b2f3b0, #aecee4,#c0e3fa,#c6f0be,#3498db);
+        
+          background-size: 100% 400%;
+          background-position: 1% 100%;
+          
+        }
+       
+        100% {
+          background: linear-gradient(55deg,#c0f0be, #c0e3fa, #e4e2e7,#c0e3fa,#c0f0be,#3498db);
+          background-size: 100% 400%;
+          background-position: 100% 1%;
+        }
+      }
+}
