@@ -1,741 +1,249 @@
-@media (min-width: 992px){
-    
-    body{ 
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        background-image: linear-gradient(rgb(237, 240, 245),
-         rgb(56, 54, 80),
-         rgb(192, 192, 187),
-         rgb(177, 171, 171),
-         #f7eff0);
-          transition: 0.8s;
-            
-           
-    }
-    
-    .-cardcenter{
-        overflow: hidden;
-        box-shadow:0 6px 4px rgba(14, 8, 8, 0.75);
-        border-radius: 5%;
-        border: 4px ;
-        padding: 4px;
-        height: 110vh;
-        width:auto;
-         border-radius: 6px;
-         transition: 0.5s; 
-         text-align:  center;
-         padding: 10px;
-         background-image: linear-gradient(rgb(65, 179, 224),
-         rgb(255, 255, 255),
-         rgb(219, 204, 204),
-         rgb(109, 95, 95));
-         border-radius: 25px;
-    }
+/***** fit for large screen *****/
 
-       .animation2 {
-        animation: animationkey 15s linear infinite;
-    }
-    @keyframes animationkey {
-        0% {
-          background: linear-gradient(40deg,  #0e0e3f, #872f5b, #232381,#0e3112,#3f3f53, #3d3da1, #3a3a46,#131330);
-          background-size: 250% 500%;
-          background-position: 0% 100%;
-        }
-      
-        50% {
-          background: linear-gradient(40deg,  #1f1f9e, #852a57, #3d3da1,#2e2e3f,#2c411e, #44447c, #30442a,#232329);
-          background-size: 250% 500%;
-          background-position: 100% 0%;
-        }
-        100% {
-          background: linear-gradient(40deg,  #1f1f9e, #852a57, #2c2c72,#2d312f,#393946, #6565ad, #414147,#852a57);
-          background-size: 250% 500%;
-          background-position: 0% 100%;
-        }
-      }
- 
-    .animate:hover {
-      transform: translateY(600px)
-    }
-    .animate::before {
-      transform: none;
-    }
-    .animate:after {
-      transform: none;
-    }
-    .animate1:hover {
-      transform: translateY(50px)
-    }
-    .animate1::before {
-      transform: none;
-    }
-    .animate1:after {
-      transform: none;
-    }
-   
-
-    .-cardprof{
-        align-items: center;
-        align-self: center;
-
-      position: absolute;
-        box-shadow:0 1px 3px rgba(2, 0, 17, 0.75);
-        border-radius: 1%;
-        border: 0.2px solid #685252;
-        padding: 10px;
-         border-radius: 13px;
-         width: 310px;
-         height: 710px;
-         transition: 0.5s;
-         
-    }
-    .picborder{
-     width: auto;
-     height: auto;
-     box-shadow:0 1px 5px rgba(2, 0, 17, 0.75);
-     padding: 5px;
-     background-image: linear-gradient(rgba(32, 31, 31, 0.637),
-     rgb(255, 255, 255),
-     rgb(37, 36, 39));
-     border-radius: 25px;
-    
-     
-   
- }
-
-    
-   .-cardflex{
-        box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
-        border-radius: 1%;
-        border: 0.2px solid #685252;
-        padding: 10px;
-         border-radius: 13px;
-         transition: 0.5s;
-        height: auto;
-        width: auto;
-         height: 710px;
-         width: 62%;
-         float: right;
-         float: center;
-         position:relative;
-        
-    }
-
-    .-card3{
-      width: auto;
-      height: auto;
-      align-self: center;
-      border-radius: 3%;
-      border: 2px solid #adabab;
-      
-      
-  }
-    .-cardeduc{
-        box-shadow:0 0.3px 0.9px rgba(15, 15, 15, 0.75);
-        border-radius: 15px;
-        align-self: auto;
-    
-    }
-    .-cardex{
-        box-shadow:0 0.3px 0.9px rgba(15, 15, 15, 0.75);
-        border-radius: 5px;
-    }
-    .-cardprofile{
-    
-        box-shadow:0 0.4px 1.1px rgba(2, 0, 17, 0.75);
-        border-radius: 13px;
-        height: 250px;
-        width: 400px;
-    
-        
-    }
-    
-    *{
-        color: rgb(255, 252, 252);
-        padding:0px;
-        width: auto;
-        height: auto;
-        
-    }
-     h1, h2 , ul, li {
-        margin: auto;
-        padding: 0;
-        color:rgb(0, 0, 0);
-     }
-     h3{
-        color:rgb(255, 255, 255);
-     }
-     h2{
-      color:rgb(255, 255, 255);
-     }
-    
-    
-    .Contact{
-        box-shadow:0 5px 13px 0 rgba(0, 0, 0, 0.75);
-        margin:10px;
-        padding: 4px;
-        align-self:auto;
-        width: 41vh;
-        border-radius: 15px;
-        transition: 0.8s;
-     
-       
-    }
-    
-    .profilestatement{
-        box-shadow:0 5px 12px 0 rgba(0, 0, 0, 0.75);
-        margin:10px;
-        padding: 4px;
-        align-self:auto;
-        width: 41vh;
-        border-radius: 15px;
-        transition: 0.8s;
-        position: fixed;
-
-        
-        
-       
-    }
-    .experience{
-        box-shadow:0 5px 20px 0 rgba(33, 24, 158, 0.75);
-        margin:10px;
-        width: auto;
-        height: auto;
-        padding: 4px;
-        align-self:auto;
-        width: 50vh;
-        border-radius: 15px;
-        float: right;
-        transition: 0.8s;
-        position: absolute;
-    
-    }
-    .education{
-        box-shadow:0 5px 15px 0 rgba(136, 10, 10, 0.75);
-        width: auto;
-        height: auto;
-        border-radius: 15px;
-        transition: 0.8s;     
-        margin:10px;
-        padding: 4px;
-        width: 50vh;
-        float: center;
-      
-    }
-    .skills {
-      overflow-x: 60px;
-      margin: 10px;
-      width: auto;
-      height: auto;
-      padding: 4px;
-      align-self: center;
-      width: 50vh;
-      border-radius: 15px;
-      transition: 0.8s;
-      margin-top: 50px;
-      box-shadow: 0 5px 20px 0 rgba(11, 4, 105, 0.75);
-      padding-inline-start: 1%;
-      float: center;
-      position: absolute; 
-      top: 0; 
-      right: 40px; 
-      
-  }
-  .PersonalSkills {
-    overflow-x: 60px;
-    margin: 10px;
-    width: auto;
-    height: auto;
-    padding: 4px;
-    align-self: center;
-    width: 50vh;
-    border-radius: 15px;
-    transition: 0.8s;
-    margin-top: 50px;
-    box-shadow: 0 5px 15px 0 rgba(194, 11, 11, 0.75);
-    float: center;
-    position: absolute; 
-    top: 0;
-    right: 40px; /* I-position ang kasanayan sa kanang bahagi ng container o parent element */
-    
-}
-  
-    p{
-        white-space: break-spaces;
-        white-space:initial;
-        margin: inline 2px;
-        align-self: auto;
-        margin: 0%;
-    }
-}
-/***** fit on the smallscreen *****/
-
-@media (max-width: 767.98px){
-    
-    body{
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        background-image: linear-gradient(rgb(255, 255, 255),
-         rgb(252, 252, 252),
-         rgb(243, 255, 68),
-         rgb(252, 252, 252),
-           #fdbdc2);
-           transition: 0.8s;
-           align-items: center;
-           text-align: center;
-    }
-    .-cardcenter{
-        overflow: hidden;
-        box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
-        border-radius: 5%;
-        border: 1px solid #d4cfcf;
-        padding: 10px;
-        background-image: linear-gradient(rgb(245, 243, 236),
-         rgb(209, 230, 255),
-         rgb(184, 230, 191),
-         rgb(228, 247, 248),
-         rgb(243, 228, 248));
-         border-radius: 25px;
-         transition: 0.5s;
-         align-items: right;
-         
-    }
-    .-cardpic{
-        overflow: hidden;
-        box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
-        border-radius: 5%;
-        border: 1px solid #d4cfcf;
-        padding: 10px;
-        background-image: linear-gradient(rgb(245, 243, 236),
-         rgb(209, 230, 255),
-         rgb(184, 230, 191),
-         rgb(228, 247, 248),
-         rgb(243, 228, 248));
-         border-radius: 25px;
-         transition: 0.5s;
-         align-items: right;
-         
-    }
-    .picture{
-    
-        align-self: auto;
-        height: 210px;
-        width: 150px;
-        box-shadow:0 13px 16px rgba(15, 15, 15, 0.75);
-        border-radius: 15px;
-        
-    
-    }
-    .-card1{
-        box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
-        border-radius: 5px;
-        border: 1px solid #d4cfcf;
-        padding: 110px;
-        background-image: linear-gradient(rgb(206, 203, 205),
-         rgb(253, 254, 255),
-         rgb(248, 248, 248),
-         rgb(207, 207, 207));
-         border-radius: 25px;
-
-    }
-    .-card3{
-        
-        box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
-        border-radius: 5px;
-        border: 1px solid #d4cfcf;
-        padding: 110px;
-        background-image: linear-gradient(rgb(211, 206, 209),
-         rgb(248, 248, 248),
-         rgb(248, 248, 248),
-         rgb(248, 248, 248),
-         rgb(248, 248, 248),
-         rgb(248, 248, 248),
-         rgb(207, 207, 207));
-         border-radius: 25px;
-        
-    }
-    .-cardeduc{
-        box-shadow:0 0.3px 0.9px rgba(15, 15, 15, 0.75);
-        border-radius: 15px;
-        align-self: auto;
-    
-    }
-    .-cardex{
-        box-shadow:0 0.3px 0.9px rgba(15, 15, 15, 0.75);
-        border-radius: 5px;
-    }
-    .-cardprofile{
-    
-        box-shadow:0 0.4px 1.1px rgba(2, 0, 17, 0.75);
-        border-radius: 13px;
-        height: 250px;
-        width: 400px;
-     
-        
-    }
-    
-    *{
-        color: rgb(0, 0, 0);
-        padding:0px;
-        margin: 1;
-        
-    }
-     h1, h2 , p, ul, li {
-        margin: 1;
-        padding: 0;
-     }
-    
-    
-    .Contact{
-        box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.75);
-        margin:60px;
-        padding: 4px;
-        align-self:auto;
-        align-self: center;
-        width: 70%;
-        border-radius: 15px;
-        float: center;
-        transition: 0.8s;
-    }
-    
-    .profilestatement{
-        box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.75);
-        margin:60px;
-        padding: 4px;
-        align-self:auto;
-        width: 70%;
-        border-radius: 15px;
-        float: center;
-        transition: 0.8s;
-       
-    }
-    .experience{
-        box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.75);
-        margin:60px;
-        padding: 4px;
-        align-self:auto;
-        width:  70%;
-        border-radius: 15px;
-        float: center;
-        transition: 0.7s;
-        
-    }
-    .education{
-        box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.75);
-        margin:60px;
-        padding: 4px;
-        align-self:auto;
-        width: 70%;
-        border-radius: 15px;
-        color-interpolation-filters: auto;
-        transition: 0.6s;
-        
-    }
-    
-    p{
-        white-space:pre-wrap;
-        white-space:pre-line;
-        margin:0.5px;
-        align-self: auto;
-
-    }
-    .-cardprof{
-        
-       margin: auto;
-       width: 50%;
-       text-align: center;
-    }
-     .picborder{
-        border-radius: 12%;
-       align-items: center;
-    }
-    .animation{
-     
-        top: 0;
-        left: 0;
-        z-index: -1; 
-        animation: animation 5s linear infinite;
-    }
-    @keyframes animation {
-        0% {
-           
-          background: linear-gradient(55deg, #c0f0be, #b2f3b0, #aecee4,#c0e3fa,#c6f0be,#3498db);
-        
-          background-size: 100% 400%;
-          background-position: 1% 100%;
-          
-        }
-       
-        100% {
-          background: linear-gradient(55deg,#c0f0be, #c0e3fa, #e4e2e7,#c0e3fa,#c0f0be,#3498db);
-          background-size: 100% 400%;
-          background-position: 100% 1%;
-        }
-      }
-}
-/***** small screen *****/
-@media (min-width: 992px){
-    
+/***** End fit for large screen *****/
+@media (min-width: 576px) and (max-width: 1767.98px){
   body{ 
-      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      background-image: linear-gradient(rgb(84, 141, 240),
-       rgb(56, 54, 80),
-       rgb(192, 192, 187),
-       rgb(177, 171, 171),
-         #f7eff0);
-         transition: 0.8s;
-          
-         
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(rgb(237, 240, 245),
+     rgb(56, 54, 80),
+     rgb(192, 192, 187),
+     rgb(177, 171, 171),
+     #f7eff0);
+      transition: 0.8s;
+        
+       
   }
   
   .-cardcenter{
-      overflow: hidden;
-      box-shadow:0 6px 4px rgba(14, 8, 8, 0.75);
-      border-radius: 5%;
-      border: 4px ;
-      padding: 4px;
-      height: 110vh;
-      width:auto;
-       border-radius: 6px;
-       transition: 0.5s; 
-       text-align:  center;
-       padding: 10px;
-       background-image: linear-gradient(rgb(65, 179, 224),
-       rgb(255, 255, 255),
-       rgb(219, 204, 204),
-       rgb(109, 95, 95));
-       border-radius: 25px;
+    overflow: hidden;
+    box-shadow:0 6px 4px rgba(14, 8, 8, 0.75);
+    border-radius: 5%;
+    border: 4px ;
+    padding: 4px;
+    height: 110vh;
+    width:auto;
+     border-radius: 6px;
+     transition: 0.5s; 
+     text-align:  center;
+     padding: 10px;
+     background-image: linear-gradient(rgb(65, 179, 224),
+     rgb(255, 255, 255),
+     rgb(219, 204, 204),
+     rgb(109, 95, 95));
+     border-radius: 25px;
   }
-
-  .animation{
-   
-      top: 0;
-      left: 0;     
-      animation: animation 10s linear infinite;
-  }
-  @keyframes animation {
-      0% {
-        background: linear-gradient(55deg, #110c0c, #2c7fd1, #3fc561, #ffffff, #6a84a5);
-        background-size: 200% 190%;
-        background-position: 0% 100%;
-      }
-    
-      100% {
-        background: linear-gradient(55deg,#1b1515, #6da3da, #725872, #3fc561, #014410);
-        background-size: 200% 190%;
-        background-position: 100% 0%;
-      }
-    }
-
-    .animation2 {
- 
-      animation: animationkey 15s linear infinite;
+  
+   .animation2 {
+    animation: animationkey 15s linear infinite;
   }
   @keyframes animationkey {
-      0% {
-        background: linear-gradient(40deg,  #0e0e3f, #852a57, #232381,#0e3112,#3f3f53, #3d3da1, #3a3a46,#131330);
-        background-size: 250% 500%;
-        background-position: 0% 100%;
-      }
-    
-      50% {
-        background: linear-gradient(40deg,  #1f1f9e, #852a57, #3d3da1,#2e2e3f,#2c411e, #44447c, #30442a,#232329);
-        background-size: 250% 500%;
-        background-position: 100% 0%;
-      }
-      100% {
-        background: linear-gradient(40deg,  #1f1f9e, #852a57, #2c2c72,#2d312f,#393946, #6565ad, #414147,#852a57);
-        background-size: 250% 500%;
-        background-position: 0% 100%;
-      }
+    0% {
+      background: linear-gradient(40deg,  #0e0e3f, #872f5b, #232381,#0e3112,#3f3f53, #3d3da1, #3a3a46,#131330);
+      background-size: 250% 500%;
+      background-position: 0% 100%;
     }
-
+  
+    50% {
+      background: linear-gradient(40deg,  #1f1f9e, #852a57, #3d3da1,#2e2e3f,#2c411e, #44447c, #30442a,#232329);
+      background-size: 250% 500%;
+      background-position: 100% 0%;
+    }
+    100% {
+      background: linear-gradient(40deg,  #1f1f9e, #852a57, #2c2c72,#2d312f,#393946, #6565ad, #414147,#852a57);
+      background-size: 250% 500%;
+      background-position: 0% 100%;
+    }
+  }
+  
   .animate:hover {
-    transform: translateY(600px)
+  transform: translateY(600px)
   }
   .animate::before {
-    transform: none;
+  transform: none;
   }
   .animate:after {
-    transform: none;
+  transform: none;
   }
   .animate1:hover {
-    transform: translateY(50px)
+  transform: translateY(70px)
   }
   .animate1::before {
-    transform: none;
+  transform: none;
   }
   .animate1:after {
-    transform: none;
+  transform: none;
   }
- 
-
+  
+  
   .-cardprof{
-      align-items: center;
-      align-self: center;
-
-    position: absolute;
-      box-shadow:0 1px 3px rgba(2, 0, 17, 0.75);
-      border-radius: 1%;
-      border: 0.2px solid #685252;
-      padding: 10px;
-       border-radius: 13px;
-       width: 310px;
-       height: 710px;
-       transition: 0.5s;
-       
+    align-items: center;
+    align-self: center;
+  
+  position: absolute;
+    box-shadow:0 1px 3px rgba(2, 0, 17, 0.75);
+    border-radius: 1%;
+    border: 0.2px solid #685252;
+    padding: 10px;
+     border-radius: 13px;
+     width: 310px;
+     height: 710px;
+     transition: 0.5s;
+     
   }
   .picborder{
-   width: auto;
-   height: auto;
-   box-shadow:0 1px 5px rgba(2, 0, 17, 0.75);
-   padding: 5px;
-   background-image: linear-gradient(rgba(32, 31, 31, 0.637),
-   rgb(255, 255, 255),
-   rgb(37, 36, 39));
-   border-radius: 25px;
+  width: auto;
+  height: auto;
+  box-shadow:0 1px 5px rgba(2, 0, 17, 0.75);
+  padding: 5px;
+  background-image: linear-gradient(rgba(32, 31, 31, 0.637),
+  rgb(255, 255, 255),
+  rgb(37, 36, 39));
+  border-radius: 25px;
   
-   
- 
-}
-
   
- .-cardflex{
-      box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
-      border-radius: 1%;
-      border: 0.2px solid #685252;
-      padding: 10px;
-       border-radius: 13px;
-       transition: 0.5s;
-      height: auto;
-      width: auto;
-       height: 710px;
-       width: 62%;
-       float: right;
-       float: center;
-       position:relative;
-      
+  
   }
-
-  .-card3{
-    width: auto;
+  
+  
+  .-cardflex{
+    box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
+    border-radius: 1%;
+    border: 0.2px solid #685252;
+    padding: 10px;
+     border-radius: 13px;
+     transition: 0.5s;
     height: auto;
-    align-self: center;
-    border-radius: 3%;
-    border: 2px solid #adabab;
+    width: auto;
+     height: 710px;
+     width: 62%;
+     float: right;
+     float: center;
+     position:relative;
     
-    
-}
+  }
+  
+  .-card3{
+  width: auto;
+  height: auto;
+  align-self: center;
+  border-radius: 3%;
+  border: 2px solid #adabab;
+  
+  
+  }
   .-cardeduc{
-      box-shadow:0 0.3px 0.9px rgba(15, 15, 15, 0.75);
-      border-radius: 15px;
-      align-self: auto;
+    box-shadow:0 0.3px 0.9px rgba(15, 15, 15, 0.75);
+    border-radius: 15px;
+    align-self: auto;
   
   }
   .-cardex{
-      box-shadow:0 0.3px 0.9px rgba(15, 15, 15, 0.75);
-      border-radius: 5px;
+    box-shadow:0 0.3px 0.9px rgba(15, 15, 15, 0.75);
+    border-radius: 5px;
   }
   .-cardprofile{
   
-      box-shadow:0 0.4px 1.1px rgba(2, 0, 17, 0.75);
-      border-radius: 13px;
-      height: 250px;
-      width: 400px;
+    box-shadow:0 0.4px 1.1px rgba(2, 0, 17, 0.75);
+    border-radius: 13px;
+    height: 250px;
+    width: 400px;
   
-      
+    
   }
   
   *{
-      color: rgb(255, 252, 252);
-      padding:0px;
-      width: auto;
-      height: auto;
-      
+    color: rgb(255, 252, 252);
+    padding:0px;
+    width: auto;
+    height: auto;
+    
   }
-   h1, h2 , ul, li {
-      margin: auto;
-      padding: 0;
-      color:rgb(0, 0, 0);
-   }
-   h3{
-      color:rgb(255, 255, 255);
-   }
-   h2{
+  h1, h2 , ul, li {
+    margin: auto;
+    padding: 0;
+    color:rgb(0, 0, 0);
+  }
+  h3{
     color:rgb(255, 255, 255);
-   }
+  }
+  h2{
+  color:rgb(255, 255, 255);
+  }
   
   
   .Contact{
-      box-shadow:0 5px 13px 0 rgba(0, 0, 0, 0.75);
-      margin:10px;
-      padding: 4px;
-      align-self:auto;
-      width: 41vh;
-      border-radius: 15px;
-      transition: 0.8s;
+    box-shadow:0 5px 13px 0 rgba(0, 0, 0, 0.75);
+    margin:10px;
+    margin-top: 30px;
+    padding: 4px;
+    align-self:auto;
+    width: 41vh;
+    border-radius: 15px;
+    transition: 0.8s;
+  
    
-     
   }
   
   .profilestatement{
-      box-shadow:0 5px 12px 0 rgba(0, 0, 0, 0.75);
-      margin:10px;
-      padding: 4px;
-      align-self:auto;
-      width: 41vh;
-      border-radius: 15px;
-      transition: 0.8s;
-      position: fixed;
-
-      
-      
-     
+    box-shadow:0 5px 12px 0 rgba(0, 0, 0, 0.75);
+    margin:10px;
+    padding: 4px;
+    align-self:auto;
+    width: 41vh;
+    border-radius: 15px;
+    transition: 0.8s;
+    position: fixed;
+   
+    
+    
+   
   }
   .experience{
-      box-shadow:0 5px 20px 0 rgba(33, 24, 158, 0.75);
-      margin:10px;
-      width: auto;
-      height: auto;
-      padding: 4px;
-      align-self:auto;
-      width: 50vh;
-      border-radius: 15px;
-      float: right;
-      transition: 0.8s;
-      position: absolute;
-  
-  }
-  .education{
-      box-shadow:0 5px 15px 0 rgba(136, 10, 10, 0.75);
-      width: auto;
-      height: auto;
-      border-radius: 15px;
-      transition: 0.8s;     
-      margin:10px;
-      padding: 4px;
-      width: 50vh;
-      float: center;
-      
-  }
-  .skills {
-    overflow-x: 60px;
-    margin: 10px;
+    box-shadow:0 5px 20px 0 rgba(33, 24, 158, 0.75);
+    margin:10px;
     width: auto;
     height: auto;
     padding: 4px;
-    align-self: center;
+    align-self:auto;
     width: 50vh;
     border-radius: 15px;
+    float: right;
     transition: 0.8s;
-    margin-top: 50px;
-    box-shadow: 0 5px 20px 0 rgba(11, 4, 105, 0.75);
-    padding-inline-start: 1%;
+    position: absolute;
+  
+  }
+  .education{
+    box-shadow:0 5px 15px 0 rgba(136, 10, 10, 0.75);
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    transition: 0.8s;     
+    margin:10px;
+    padding: 4px;
+    width: 50vh;
     float: center;
-    position: absolute; 
-    top: 0; 
-    right: 40px; 
-    
-}
-.PersonalSkills {
+  
+  }
+  .skills {
+  overflow-x: 60px;
+  margin: 10px;
+  width: auto;
+  height: auto;
+  padding: 4px;
+  align-self: center;
+  width: 50vh;
+  border-radius: 15px;
+  transition: 0.8s;
+  margin-top: 50px;
+  box-shadow: 0 5px 20px 0 rgba(11, 4, 105, 0.75);
+  padding-inline-start: 1%;
+  float: center;
+  position: absolute; 
+  top: 0; 
+  right: 40px; 
+  
+  }
+  .PersonalSkills {
   overflow-x: 60px;
   margin: 10px;
   width: auto;
@@ -747,429 +255,297 @@
   transition: 0.8s;
   margin-top: 50px;
   box-shadow: 0 5px 15px 0 rgba(194, 11, 11, 0.75);
-  padding-inline-start: 1%;
   float: center;
   position: absolute; 
   top: 0;
   right: 40px; /* I-position ang kasanayan sa kanang bahagi ng container o parent element */
   
-}
-
-  p{
-      white-space: break-spaces;
-      white-space:initial;
-      margin: inline 2px;
-      align-self: auto;
-      margin: 0%;
-  }
-}
-/***** fit on the smallscreen *****/
-
-@media (max-width: 767.98px){
-  
-  body{
-      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      background-image: linear-gradient(rgb(255, 255, 255),
-       rgb(252, 252, 252),
-       rgb(243, 255, 68),
-       rgb(252, 252, 252),
-         #fdbdc2);
-         transition: 0.8s;
-         align-items: center;
-         text-align: center;
-  }
-  .-cardcenter{
-      overflow: hidden;
-      box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
-      border-radius: 5%;
-      border: 1px solid #d4cfcf;
-      padding: 10px;
-      background-image: linear-gradient(rgb(245, 243, 236),
-       rgb(209, 230, 255),
-       rgb(184, 230, 191),
-       rgb(228, 247, 248),
-       rgb(243, 228, 248));
-       border-radius: 25px;
-       transition: 0.5s;
-       align-items: right;
-       
-  }
-  .-cardpic{
-      overflow: hidden;
-      box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
-      border-radius: 5%;
-      border: 1px solid #d4cfcf;
-      padding: 10px;
-      background-image: linear-gradient(rgb(245, 243, 236),
-       rgb(209, 230, 255),
-       rgb(184, 230, 191),
-       rgb(228, 247, 248),
-       rgb(243, 228, 248));
-       border-radius: 25px;
-       transition: 0.5s;
-       align-items: right;
-       
-  }
-  .picture{
-  
-      align-self: auto;
-      height: 210px;
-      width: 150px;
-      box-shadow:0 13px 16px rgba(15, 15, 15, 0.75);
-      border-radius: 15px;
-      
-  
-  }
-  .-card1{
-      box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
-      border-radius: 5px;
-      border: 1px solid #d4cfcf;
-      padding: 110px;
-      background-image: linear-gradient(rgb(206, 203, 205),
-       rgb(253, 254, 255),
-       rgb(248, 248, 248),
-       rgb(207, 207, 207));
-       border-radius: 25px;
-
-  }
-  .-card3{
-      
-      box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
-      border-radius: 5px;
-      border: 1px solid #d4cfcf;
-      padding: 110px;
-      background-image: linear-gradient(rgb(211, 206, 209),
-       rgb(248, 248, 248),
-       rgb(248, 248, 248),
-       rgb(248, 248, 248),
-       rgb(248, 248, 248),
-       rgb(248, 248, 248),
-       rgb(207, 207, 207));
-       border-radius: 25px;
-      
-  }
-  .-cardeduc{
-      box-shadow:0 0.3px 0.9px rgba(15, 15, 15, 0.75);
-      border-radius: 15px;
-      align-self: auto;
-  
-  }
-  .-cardex{
-      box-shadow:0 0.3px 0.9px rgba(15, 15, 15, 0.75);
-      border-radius: 5px;
-  }
-  .-cardprofile{
-  
-      box-shadow:0 0.4px 1.1px rgba(2, 0, 17, 0.75);
-      border-radius: 13px;
-      height: 250px;
-      width: 400px;
-   
-      
-  }
-  
-  *{
-      color: rgb(0, 0, 0);
-      padding:0px;
-      margin: 1;
-      
-  }
-   h1, h2 , p, ul, li {
-      margin: 1;
-      padding: 0;
-   }
-  
-  
-  .Contact{
-      box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.75);
-      margin:60px;
-      padding: 4px;
-      align-self:auto;
-      align-self: center;
-      width: 70%;
-      border-radius: 15px;
-      float: center;
-      transition: 0.8s;
-  }
-  
-  .profilestatement{
-      box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.75);
-      margin:60px;
-      padding: 4px;
-      align-self:auto;
-      width: 70%;
-      border-radius: 15px;
-      float: center;
-      transition: 0.8s;
-     
-  }
-  .experience{
-      box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.75);
-      margin:60px;
-      padding: 4px;
-      align-self:auto;
-      width:  70%;
-      border-radius: 15px;
-      float: center;
-      transition: 0.7s;
-      
-  }
-  .education{
-      box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.75);
-      margin:60px;
-      padding: 4px;
-      align-self:auto;
-      width: 70%;
-      border-radius: 15px;
-      color-interpolation-filters: auto;
-      transition: 0.6s;
-      
   }
   
   p{
-      white-space:pre-wrap;
-      white-space:pre-line;
-      margin:0.5px;
-      align-self: auto;
-
+    white-space: break-spaces;
+    white-space:initial;
+    margin: inline 2px;
+    align-self: auto;
+    margin: 0%;
   }
-  .-cardprof{
-      
-     margin: auto;
-     width: 50%;
-     text-align: center;
-  }
-   .picborder{
-      border-radius: 12%;
-     align-items: center;
-  }
-  .animation{
-   
-      top: 0;
-      left: 0;
-      z-index: -1; 
-      animation: animation 5s linear infinite;
-  }
-  @keyframes animation {
-      0% {
-         
-        background: linear-gradient(55deg, #c0f0be, #b2f3b0, #aecee4,#c0e3fa,#c6f0be,#3498db);
-      
-        background-size: 100% 400%;
-        background-position: 1% 100%;
-        
-      }
-     
-      100% {
-        background: linear-gradient(55deg,#c0f0be, #c0e3fa, #e4e2e7,#c0e3fa,#c0f0be,#3498db);
-        background-size: 100% 400%;
-        background-position: 100% 1%;
-      }
-    }
-}
-
-/***** End small screen Section *****/
-
-
-@media (max-width: 767.98px){
+ 
+  footer{
     
-  body{
-      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      background-image: linear-gradient(rgb(255, 255, 255),
-       rgb(174, 110, 110),
-       rgb(243, 255, 68),
-       rgb(252, 252, 252),
-         #fdbdc2);
-         transition: 0.8s;
-         align-items: center;
-         text-align: center;
+  margin-block-start: 330px;
+   align-items: center;
+   margin-left: 65px;
+   width: 20px;
+  
   }
+  .download{
+    scroll-margin-block-end: 10px;
+    
+ 
+  }
+  .downloadcv{
+    margin-left: 55px;
+    text-align: center;
+    display: flex;
+    color: black;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***** fit for CP  screen *****/
+
+@media (min-width: 176px) and (max-width: 767.98px){
+  body{ 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(rgb(237, 240, 245),
+     rgb(56, 54, 80),
+     rgb(192, 192, 187),
+     rgb(177, 171, 171),
+     #f7eff0);
+    align-items: baseline;
+       
+  }
+  footer{
+    color: rgb(213, 240, 92);
+    justify-self: center;
+   align-items: center;
+   justify-items: center;
+   padding-top: 20px;
+  }
+  .downloadcv{
+    
+    color: rgb(213, 240, 92);
+    justify-self: center;
+   align-items: center;
+   justify-items: center;
+ 
+  }
+  
   .-cardcenter{
-      overflow: hidden;
-      box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
-      border-radius: 5%;
-      border: 1px solid #d4cfcf;
-      padding: 100px;
-      background-image: linear-gradient(rgb(245, 243, 236),
-       rgb(209, 230, 255),
-       rgb(184, 230, 191),
-       rgb(228, 247, 248),
-       rgb(243, 228, 248));
-       border-radius: 25px;
-       transition: 0.5s;
-       align-items: right;
-       
-  }
-  .-cardpic{
-      overflow: hidden;
-      box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
-      border-radius: 5%;
-      border: 1px solid #d4cfcf;
-      padding: 10px;
-      background-image: linear-gradient(rgb(245, 243, 236),
-       rgb(209, 230, 255),
-       rgb(184, 230, 191),
-       rgb(228, 247, 248),
-       rgb(243, 228, 248));
-       border-radius: 25px;
-       transition: 0.5s;
-       align-items: right;
-       
-  }
-  .picture{
-  
-      align-self: auto;
-      height: 210px;
-      width: 150px;
-      box-shadow:0 13px 16px rgba(15, 15, 15, 0.75);
-      border-radius: 15px;
-      
-  
-  }
-  .-card1{
-      box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
-      border-radius: 5px;
-      border: 1px solid #d4cfcf;
-      padding: 110px;
-      background-image: linear-gradient(rgb(206, 203, 205),
-       rgb(253, 254, 255),
-       rgb(248, 248, 248),
-       rgb(207, 207, 207));
-       border-radius: 25px;
+    overflow: hidden;
+    box-shadow:0 12px 2px rgba(14, 8, 8, 0.75);
+    border-radius: 20px ;
+    border: 2px ;
+    padding: 4px;
+    width:auto;
+     border-radius: 6px;
+     transition: 0.5s; 
+     text-align:  center;
+     padding: 10px;
+     background-image: linear-gradient(rgb(65, 179, 224),
+     rgb(255, 255, 255),
+     rgb(219, 204, 204),
+     rgb(109, 95, 95));
 
   }
+  
+   .animation2 {
+    animation: animationkey 15s linear infinite;
+  }
+  @keyframes animationkey {
+    0% {
+      background: linear-gradient(40deg,  #0e0e3f, #872f5b, #232381,#0e3112,#3f3f53, #3d3da1, #3a3a46,#131330);
+      background-size: 250% 500%;
+      background-position: 0% 100%;
+    }
+  
+    50% {
+      background: linear-gradient(40deg,  #1f1f9e, #852a57, #3d3da1,#2e2e3f,#2c411e, #44447c, #30442a,#232329);
+      background-size: 250% 500%;
+      background-position: 100% 0%;
+    }
+    100% {
+      background: linear-gradient(40deg,  #1f1f9e, #852a57, #2c2c72,#2d312f,#393946, #6565ad, #414147,#852a57);
+      background-size: 250% 500%;
+      background-position: 0% 100%;
+    }
+  }
+     
+  .animate:hover {
+    transform: translateY(12px)
+    }
+    .animate::before {
+    transform: none;
+    }
+    .animate:after {
+    transform: none;
+    }
+    .animate1:hover {
+    transform: translateY(12px)
+    }
+    .animate1::before {
+    transform: none;
+    }
+    .animate1:after {
+    transform: none;
+    }
+    
+  
+  .-cardprof{
+    align-items: center;
+    align-self: center;
+    
+  
+  }
+  .picborder{
+  width: auto;
+  height: auto;
+  box-shadow:0 1px 5px rgba(2, 0, 17, 0.75);
+  padding: 5px;
+  background-image: linear-gradient(rgba(32, 31, 31, 0.637),
+  rgb(255, 255, 255),
+  rgb(37, 36, 39));
+  border-radius: 25px;
+  
+  
+  
+  }
+  
+  
+  .-cardflex{
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  
   .-card3{
-      
-      box-shadow:0 5px 6px rgba(2, 0, 17, 0.75);
-      border-radius: 5px;
-      border: 1px solid #d4cfcf;
-      padding: 110px;
-      background-image: linear-gradient(rgb(211, 206, 209),
-       rgb(248, 248, 248),
-       rgb(248, 248, 248),
-       rgb(248, 248, 248),
-       rgb(248, 248, 248),
-       rgb(248, 248, 248),
-       rgb(207, 207, 207));
-       border-radius: 25px;
-      
+  width: auto;
+  height: auto;
+  align-self: center;
+  border-radius: 20px 20px;
+  border: 2px solid #adabab;
+  
+  
+  
   }
   .-cardeduc{
-      box-shadow:0 0.3px 0.9px rgba(15, 15, 15, 0.75);
-      border-radius: 15px;
-      align-self: auto;
+    box-shadow:0 0.3px 0.9px rgba(15, 15, 15, 0.75);
+    border-radius: 15px;
+    align-self: auto;
   
   }
   .-cardex{
-      box-shadow:0 0.3px 0.9px rgba(15, 15, 15, 0.75);
-      border-radius: 5px;
+    box-shadow:0 0.3px 0.9px rgba(15, 15, 15, 0.75);
+    border-radius: 5px;
   }
   .-cardprofile{
   
-      box-shadow:0 0.4px 1.1px rgba(2, 0, 17, 0.75);
-      border-radius: 13px;
-      height: 250px;
-      width: 400px;
-   
-      
+    box-shadow:0 0.4px 1.1px rgba(2, 0, 17, 0.75);
+    border-radius: 13px;
+    height: 250px;
+    width: 400px;
+  
+    
   }
   
   *{
-      color: rgb(0, 0, 0);
-      padding:0px;
-      margin: 1;
-      
+    transition: 0.8s;
+    color: rgb(255, 252, 252);
+    padding:0px;
+    width: auto;
+    height: auto;
+    align-items: center;
+  
+    
   }
-   h1, h2 , p, ul, li {
-      margin: 1;
-      padding: 0;
-   }
+  h1, h2 , ul, li {
+    margin: auto;
+    padding: 0;
+    color:rgb(0, 0, 0);
+  }
+  h3{
+    color:rgb(255, 255, 255);
+  }
+  h2{
+  color:rgb(255, 255, 255);
+  }
   
   
   .Contact{
-      box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.75);
-      margin:60px;
-      padding: 4px;
-      align-self:auto;
-      align-self: center;
-      width: 70%;
-      border-radius: 15px;
-      float: center;
-      transition: 0.8s;
+ 
+   margin-top: 40px;
+   border-radius: 30px;
   }
   
   .profilestatement{
-      box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.75);
-      margin:60px;
-      padding: 4px;
-      align-self:auto;
-      width: 70%;
-      border-radius: 15px;
-      float: center;
-      transition: 0.8s;
-     
+
+   
+   margin-top: 40px;
+   border-radius: 30px;
+    
+   
   }
   .experience{
-      box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.75);
-      margin:60px;
-      padding: 4px;
-      align-self:auto;
-      width:  70%;
-      border-radius: 15px;
-      float: center;
-      transition: 0.7s;
-      
+   
+   margin-top: 40px;
+   border-radius: 30px;
+  
   }
   .education{
-      box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.75);
-      margin:60px;
-      padding: 4px;
-      align-self:auto;
-      width: 70%;
-      border-radius: 15px;
-      color-interpolation-filters: auto;
-      transition: 0.6s;
-      
+   
+   margin-top: 40px;
+   border-radius: 30px;
+  
+  }
+  .skills {
+   
+   margin-top: 40px;
+   border-radius: 30px;
+
+  
+  }
+  .PersonalSkills {
+
+   
+   margin-top: 40px;
+   border-radius: 30px;
   }
   
   p{
-      white-space:pre-wrap;
-      white-space:pre-line;
-      margin:0.5px;
-      align-self: auto;
-
+    white-space: break-spaces;
+    white-space:initial;
+    margin: inline 2px;
+    align-self: auto;
+    margin: 0%;
   }
-  .-cardprof{
-      
-     margin: auto;
-     width: 50%;
-     text-align: center;
-  }
-   .picborder{
-      border-radius: 12%;
-     align-items: center;
-  }
-  .animation{
-   
-      top: 0;
-      left: 0;
-      z-index: -1; 
-      animation: animation 5s linear infinite;
-  }
-  @keyframes animation {
-      0% {
-         
-        background: linear-gradient(55deg, #c0f0be, #b2f3b0, #aecee4,#c0e3fa,#c6f0be,#3498db);
-      
-        background-size: 100% 400%;
-        background-position: 1% 100%;
-        
-      }
-     
-      100% {
-        background: linear-gradient(55deg,#c0f0be, #c0e3fa, #e4e2e7,#c0e3fa,#c0f0be,#3498db);
-        background-size: 100% 400%;
-        background-position: 100% 1%;
-      }
-    }
+  
 }
