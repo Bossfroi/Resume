@@ -1,6 +1,8 @@
-/***** fit for large screen *****/
+.underline{
+  text-decoration:underline;
+}
 
-/***** End fit for large screen *****/
+/***** fit for large screen *****/
 @media (min-width: 576px) and (max-width: 1767.98px){
   body{ 
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -85,7 +87,7 @@
     padding: 10px;
      border-radius: 13px;
      width: 310px;
-     height: 710px;
+     height: 770px;
      transition: 0.5s;
      
   }
@@ -113,11 +115,12 @@
      transition: 0.5s;
     height: auto;
     width: auto;
-     height: 710px;
+     height: 770px;
      width: 62%;
      float: right;
      float: center;
      position:relative;
+    
     
   }
   
@@ -209,7 +212,7 @@
     float: right;
     transition: 0.8s;
     position: absolute;
-  
+    cursor:pointer;
   }
   .education{
     box-shadow:0 5px 15px 0 rgba(136, 10, 10, 0.75);
@@ -221,6 +224,7 @@
     padding: 4px;
     width: 50vh;
     float: center;
+    cursor:pointer;
   
   }
   .skills {
@@ -233,12 +237,13 @@
     width: 50vh;
     border-radius: 15px;
     transition: 0.9s;
-    margin-top: 50px;
+    margin-top: 20px;
     box-shadow: 0 5px 20px 0 rgba(11, 4, 105, 0.75);
     padding-inline-start: 1%;
     float: center;
-    position: absolute; 
+   position:absolute;
     top: 0; 
+    cursor:pointer;
     right: 40px; 
   
   }
@@ -253,13 +258,11 @@
     border-radius: 15px;
     transition: 0.8s;
     margin-top: 50px;
+    position:absolute;
     box-shadow: 0 5px 15px 0 rgba(194, 11, 11, 0.75);
-    padding-inline-start: 1%;
-    float: center;
-    position: absolute; 
+    cursor:pointer;
     top: 0;
     right: 40px;
-  
   }
   
   p{
